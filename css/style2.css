@@ -3,7 +3,8 @@ body {
   height: 100%;
   font-family: "Cairo", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  /* font-family: Inter; */
 }
 
 h1,
@@ -3047,6 +3048,12 @@ body {
 .contact-form form button {
   font-size: 18px;
   letter-spacing: 2px;
+}
+.Dashboard-header {
+  width: 100%;
+}
+.upppercase {
+  text-transform: uppercase;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
