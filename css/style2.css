@@ -3049,13 +3049,53 @@ body {
   font-size: 18px;
   letter-spacing: 2px;
 }
+.Dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32px;
+}
 .Dashboard-header {
   width: 100%;
+  margin: 16px 0px;
+  padding: 0px;
 }
 .upppercase {
   text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Inter;
 }
-
+.Dashboard-menu {
+  margin-left: 24px;
+}
+.DB-list {
+  list-style-type: none;
+}
+.DB-list li {
+  width: 100%;
+  display: block;
+  padding: 10px 0px;
+}
+.DB-list li:first-child {
+  background-color: #ef9590;
+}
+.DB-list li i {
+  font-size: 225%;
+  width: 25%;
+  display: inline-block;
+  padding-left: 4%;
+}
+.DB-list li p {
+  max-width: 65%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px 0px 0px 0px;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1200px) {
