@@ -572,7 +572,7 @@ ol {
 .header__cart ul li a span {
   height: 13px;
   width: 13px;
-  background: #7fad39;
+  background: #3f72af;
   font-size: 10px;
   color: #ffffff;
   line-height: 13px;
@@ -771,7 +771,7 @@ ol {
 
 .hero__search__phone__icon {
   font-size: 18px;
-  color: #7fad39;
+  color: #112d4e;
   height: 50px;
   width: 50px;
   background: #f5f5f5;
@@ -3100,7 +3100,6 @@ body {
 .Dashboard {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-left: 32px;
 }
 .Dashboard-header {
@@ -3113,6 +3112,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   font-family: Inter;
+  margin-left: 2%;
 }
 .Dashboard-menu {
   margin-left: 24px;
@@ -3124,13 +3124,13 @@ body {
   width: 100%;
   display: block;
   padding: 10px 0px;
-  border: 1px solid #ef9590;
+  border: 1px solid #3f72af;
   margin: 10px 0px;
   border-radius: 5px;
 }
-.DB-list li:hover {
-  background-color: #ef9590;
-}
+/* .DB-list li:hover {
+  background-color: #3f72af;
+} */
 .DB-list li p:hover {
   color: #ccc;
 }
@@ -3168,10 +3168,10 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ef9590;
+  background-color: #3f72af;
   opacity: 0;
   transform: translateY(-100%);
-  transition: transform 0.5s, opacity 0.5s;
+  transition: transform 0.3s, opacity 0.3s;
 }
 
 .Dashboard-menu li:hover::before {
@@ -3180,24 +3180,89 @@ body {
 }
 
 .Dashboard-menu li i {
-  color: black; /* or gray */
-  transition: color 0.5s;
+  color: #112d4e; /* or gray */
+  transition: color 0.3s;
 }
 
 .Dashboard-menu li i:hover {
-  color: black; /* or gray */
+  color: #112d4e; /* or gray */
 }
 .Dashboard-menu li p,
 .Dashboard-menu li i {
   position: relative;
   z-index: 1;
-  transition: color 0.5s;
+  transition: color 0.3s;
 }
 
 .Dashboard-menu li p:hover {
-  color: white;
+  color: #f9f7f7;
 }
 /* end test animation for dashboard menu */
+/* .Dashboard main .content */
+.Dashboard-Content {
+  padding: 0px;
+  vertical-align: top;
+}
+.DB-mainProfile-header {
+  border-bottom: 1px solid #3f72af;
+  height: 30px;
+
+  vertical-align: top;
+  width: 100%;
+}
+.DB-mainProfile-header h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px 0px;
+  padding: 0px;
+}
+.DB-user-info {
+  display: grid;
+  place-items: center;
+  margin: 0px;
+}
+.DB-mainContent {
+  margin-top: 15px;
+}
+.DB-mainContent form {
+  width: 100%;
+}
+.DB-mainContent form input,
+.DB-mainContent form label {
+  /* height: 48px; */
+  height: 20%;
+  flex-shrink: 0;
+}
+.submit-btn {
+  display: block;
+  margin: 0 auto;
+  background: #3f72af;
+  border-radius: 5px;
+  border: 1px solid #3f72af;
+  color: #f9f7f7;
+}
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #3f72af;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #3f72af;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 5px;
+}
+.custom-file-upload p {
+  color: #f9f7f7;
+  width: 100%;
+  margin: 3px 0px 5px 19px;
+  place-items: center;
+  font-size: 16px;
+  padding: 0;
+}
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1200px) {

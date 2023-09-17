@@ -243,7 +243,41 @@
         </ul>
       </div>
       <!-- Dashboard menu Section End -->
-      <div class="Dashboard-mainContent col-8"></div>
+      <div class="Dashboard-Content col-8">
+        <div class="DB-mainProfile-header">
+          <h3>My Profile</h3>
+        </div>
+        <div class="row DB-mainContent">
+          <div class="col-4 DB-user-info">
+            <img src="./img/userImage/user-img.jpg" alt="" srcset="" />
+            <p name="username">Username</p>
+          </div>
+          <div class="col-8 row">
+            <form>
+              <label class="col-5" for="name">Full name</label>
+              <input placeholder="Nguyen van A" class="col-5" type="text" />
+              <br />
+              <label class="col-5" for="email">Email</label>
+              <input
+                placeholder="Ex:ABC@gmail.com"
+                class="col-5"
+                type="email"
+              />
+              <br />
+              <label class="col-5" for="phone">Phone</label>
+              <input placeholder="+84-88471315" class="col-5" type="text" />
+              <br />
+              <label class="col-5" for="img">Image of choice</label>
+              <label class="custom-file-upload col-3">
+                <input type="file" id="img" name="img" accept="image/*" />
+                <p>Chose your image</p>
+              </label>
+              <br />
+              <button class="col-2 submit-btn" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Dashboard Section End -->
 
