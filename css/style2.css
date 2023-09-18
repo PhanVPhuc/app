@@ -3128,6 +3128,9 @@ body {
   margin: 10px 0px;
   border-radius: 5px;
 }
+input {
+  margin-bottom: 0.5rem;
+}
 
 /* hover cho 1 li khi di chuot vao` no se turn color cua con i va p trong do */
 .Dashboard-menu li:hover p,
