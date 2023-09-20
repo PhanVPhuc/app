@@ -139,7 +139,7 @@ ol {
 }
 
 .site-btn {
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 14px;
   color: #ffffff;
   font-weight: 800;
@@ -375,7 +375,7 @@ ol {
 }
 .header__top .hero__search__form {
   background: #dbe2ef;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .header__top .row {
@@ -581,7 +581,7 @@ ol {
   display: inline-block;
   border-radius: 50%;
   position: absolute;
-  top: 0;
+  top: 7px;
   right: 0;
 }
 
@@ -814,7 +814,7 @@ ol {
 
 .hero__text h2 {
   font-size: 46px;
-  color: #252525;
+  color: #f4eeed;
   line-height: 52px;
   font-weight: 700;
   margin: 10px 0;
@@ -3258,7 +3258,6 @@ input[type="file"] {
   font-size: 16px;
   padding: 0;
 }
-
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
