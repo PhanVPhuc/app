@@ -4,7 +4,6 @@ body {
   font-family: "Cairo", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased;
-  /* font-family: Inter; */
 }
 
 h1,
@@ -16,7 +15,7 @@ h6 {
   margin: 0;
   color: #111111;
   font-weight: 400;
-  font-family: emoji;
+  font-family: "Cairo", sans-serif;
 }
 
 h1 {
@@ -58,7 +57,7 @@ img {
 }
 
 a {
-  font-family: emoji;
+  font-family: "Cairo", sans-serif;
 }
 
 .fa {
@@ -95,7 +94,7 @@ ol {
 }
 
 .section-title h3 {
-  font-family: emoji;
+  font-family: "Cairo", sans-serif;
   font-weight: 600;
   font-size: 20px;
   text-align: left;
@@ -243,7 +242,7 @@ ol {
 }
 
 .signup .content .item2 a {
-  font-family: fangsong;
+  font-family: "Cairo", sans-serif;
   font-size: 16px;
   color: #249bc8;
 }
@@ -266,21 +265,21 @@ ol {
   margin: 0;
   margin-top: 10px;
   font-size: 18px;
-  font-family: emoji;
+  font-family: "Cairo", sans-serif;
 }
 
 .signup .content input {
   width: 400px;
   border: 1px solid #ccc;
   height: 35px;
-  font-family: fangsong;
+  font-family: "Cairo", sans-serif;
   padding: 0 10px;
   border-radius: 3px;
 }
 
 .signup .content span {
   text-align: center;
-  font-family: emoji;
+  font-family: "Cairo", sans-serif;
   display: block;
   margin-top: 15px;
 }
@@ -294,7 +293,7 @@ ol {
   background: bisque;
   height: 38px;
   border-radius: 5px;
-  font-family: auto;
+  font-family: "Cairo", sans-serif;
   font-size: 18px;
   font-style: unset;
   font-weight: 600;
@@ -312,7 +311,7 @@ ol {
 }
 
 .signup .content .login a {
-  font-family: emoji;
+  font-family: "Cairo", sans-serif;
   margin-left: 5px;
   color: #249bc8;
 }
@@ -320,7 +319,7 @@ ol {
 .signup .content .title {
   font-size: 24px;
   margin-top: 0;
-  font-family: emoji;
+  font-family: "Cairo", sans-serif;
   font-weight: 600;
 }
 
@@ -555,7 +554,7 @@ ol {
 
 .header__cart ul li:last-child {
   margin-right: 0;
-  font-family: "FontAwesome";
+  font-family: "Cairo", sans-serif;
   font-weight: bold;
 }
 
@@ -676,7 +675,7 @@ ol {
   right: 24px;
   top: 9px;
   content: "3";
-  font-family: "ElegantIcons";
+  font-family: "Cairo", sans-serif;
   font-size: 18px;
   color: #112d4e;
 }
@@ -841,7 +840,7 @@ ol {
   color: #000000;
   padding: 5px;
   text-align: center;
-  font-family: math;
+  font-family: "Cairo", sans-serif;
   font-weight: 600;
 }
 
@@ -898,7 +897,7 @@ ol {
   list-style: none;
   font-size: 18px;
   color: #1c1c1c;
-  font-family: emoji;
+  font-family: "Cairo", sans-serif;
   display: inline-block;
   margin-right: 25px;
   position: relative;
@@ -1681,12 +1680,13 @@ ol {
   padding-bottom: 30px;
 }
 
-.product__details__pic__item {
+/* .product__details__pic__item {
   margin-bottom: 20px;
-}
+} */
 
 .product__details__pic__item img {
-  min-width: 100%;
+  min-width: 40%;
+  max-width: 90%;
 }
 
 .product__details__pic__slider img {
@@ -1700,30 +1700,32 @@ ol {
 .product__details__text h3 {
   color: #252525;
   font-weight: 700;
-  font-family: "FontAwesome";
+  font-family: "Cairo", sans-serif;
   margin-bottom: 12px;
 }
 
-.product__details__text .product__details__rating {
+.product__details__text .product__details__rating .product__details__fav {
   font-size: 14px;
   margin-bottom: 5px;
 }
 
-.product__details__text .product__details__rating i {
-  margin-right: -2px;
+.product__details__rating {
+  margin-right: 4px;
   color: #edbb0e;
+  font-size: 24px;
+}
+.product__details__fav {
+  margin-right: 4px;
+  color: #ed0e2c;
+  font-size: 24px;
 }
 
-.product__details__text .product__details__rating span {
-  color: #dd2222;
-  margin-left: 4px;
-}
-
-.product__details__text .product__details__price {
-  font-size: 30px;
-  color: #7fad39;
+.product__details__description,
+.product__details__description p {
+  font-size: 20px;
+  color: #112d4e;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin-top: 10px;
 }
 
 .product__details__text p {
@@ -1736,35 +1738,23 @@ ol {
   margin-bottom: 5px;
 }
 
-.product__details__text .heart-icon {
-  display: inline-block;
-  font-size: 16px;
-  color: #6f6f6f;
-  padding: 13px 16px 13px;
-  background: #f5f5f5;
-}
-
 .product__details__text ul {
   border-top: 1px solid #ebebeb;
-  padding-top: 25px;
   margin-top: 20px;
 }
 
 .product__details__text ul li {
-  font-size: 16px;
+  font-size: 18px;
   color: #1c1c1c;
   list-style: none;
   line-height: 36px;
+  padding-top: 3%;
 }
 
 .product__details__text ul li b {
   font-weight: 700;
-  width: 170px;
+  width: 132px;
   display: inline-block;
-}
-
-.product__details__text ul li span samp {
-  color: #dd2222;
 }
 
 .product__details__text ul li .share {
@@ -1773,7 +1763,7 @@ ol {
 
 .product__details__text ul li .share a {
   display: inline-block;
-  font-size: 15px;
+  font-size: 24px;
   color: #1c1c1c;
   margin-right: 25px;
 }
@@ -1853,7 +1843,7 @@ ol {
 .shoping__cart__table table thead th {
   font-size: 18px;
   font-weight: 700;
-  font-family: "FontAwesome";
+  font-family: "Cairo", sans-serif;
   color: #1c1c1c;
   padding-bottom: 20px;
 }
@@ -1887,7 +1877,7 @@ ol {
   font-size: 18px;
   color: #1c1c1c;
   font-weight: 700;
-  font-family: "FontAwesome";
+  font-family: "Cairo", sans-serif;
   width: 100px;
 }
 
@@ -1895,7 +1885,7 @@ ol {
   font-size: 18px;
   color: #1c1c1c;
   font-weight: 700;
-  font-family: "FontAwesome";
+  font-family: "Cairo", sans-serif;
   width: 110px;
 }
 
@@ -2340,7 +2330,7 @@ body {
   font-weight: 700;
   margin-bottom: 10px;
   display: flex;
-  font-family: "FontAwesome";
+  font-family: "Cairo", sans-serif;
 }
 
 .checkout__order__image {
@@ -3111,7 +3101,7 @@ body {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: bold;
-  font-family: Inter;
+  font-family: "Cairo", sans-serif;
   margin-left: 2%;
 }
 .Dashboard-menu {
