@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased;
 }
@@ -15,7 +15,7 @@ h6 {
   margin: 0;
   color: #111111;
   font-weight: 400;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h6 {
 
 p {
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #6f6f6f;
   font-weight: 400;
   text-align: justify;
@@ -57,7 +57,7 @@ img {
 }
 
 a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .fa {
@@ -94,7 +94,7 @@ ol {
 }
 
 .section-title h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 20px;
   text-align: left;
@@ -242,7 +242,7 @@ ol {
 }
 
 .signup .content .item2 a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   color: #249bc8;
 }
@@ -265,21 +265,21 @@ ol {
   margin: 0;
   margin-top: 10px;
   font-size: 18px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .signup .content input {
   width: 400px;
   border: 1px solid #ccc;
   height: 35px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 0 10px;
   border-radius: 3px;
 }
 
 .signup .content span {
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   display: block;
   margin-top: 15px;
 }
@@ -293,7 +293,7 @@ ol {
   background: bisque;
   height: 38px;
   border-radius: 5px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-style: unset;
   font-weight: 600;
@@ -311,7 +311,7 @@ ol {
 }
 
 .signup .content .login a {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-left: 5px;
   color: #249bc8;
 }
@@ -319,7 +319,7 @@ ol {
 .signup .content .title {
   font-size: 24px;
   margin-top: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 
@@ -554,7 +554,7 @@ ol {
 
 .header__cart ul li:last-child {
   margin-right: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
 }
 
@@ -675,7 +675,7 @@ ol {
   right: 24px;
   top: 9px;
   content: "3";
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   color: #112d4e;
 }
@@ -840,7 +840,7 @@ ol {
   color: #000000;
   padding: 5px;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 
@@ -897,7 +897,7 @@ ol {
   list-style: none;
   font-size: 18px;
   color: #1c1c1c;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   display: inline-block;
   margin-right: 25px;
   position: relative;
@@ -1078,7 +1078,12 @@ ol {
   font-weight: bold;
   font-family: "Inter";
 }
-
+.order-table div form input {
+  margin-left: 3%;
+}
+.order-table div form label {
+  margin-left: 1%;
+}
 .order-table {
   background: #dbe2ef;
 }
@@ -1699,7 +1704,7 @@ ol {
 .product__details__text h3 {
   color: #252525;
   font-weight: 700;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-bottom: 12px;
 }
 
@@ -1842,7 +1847,7 @@ ol {
 .shoping__cart__table table thead th {
   font-size: 18px;
   font-weight: 700;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #1c1c1c;
   padding-bottom: 20px;
 }
@@ -1876,7 +1881,7 @@ ol {
   font-size: 18px;
   color: #1c1c1c;
   font-weight: 700;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   width: 100px;
 }
 
@@ -1884,7 +1889,7 @@ ol {
   font-size: 18px;
   color: #1c1c1c;
   font-weight: 700;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   width: 110px;
 }
 
@@ -2329,7 +2334,7 @@ body {
   font-weight: 700;
   margin-bottom: 10px;
   display: flex;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .checkout__order__image {
@@ -3100,7 +3105,7 @@ body {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-left: 2%;
 }
 .Dashboard-menu {
