@@ -948,6 +948,7 @@ ol {
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 2px;
+  height: 100%;
 }
 
 .featured__item:hover .featured__item__pic .featured__item__pic__hover {
@@ -1024,7 +1025,8 @@ ol {
 
 .featured__item__text {
   text-align: left;
-  padding: 10px 8px 8px 8px;
+
+  padding: 10px 8px 10px 8px;
 }
 
 .featured__item__text h6 {
@@ -1035,28 +1037,10 @@ ol {
   outline: none;
   border: none;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 15%;
   padding: 8px;
   border-radius: 2px;
   background: antiquewhite;
-}
-
-.featured__item__text button i {
-  margin-right: 8px;
-}
-
-.featured__item__rate,
-.featured__item__weight {
-  display: flex;
-  justify-content: space-between;
-}
-
-.featured__item__text .featured__item__weight p {
-  margin: 0;
-}
-
-.featured__item__rate--yellow {
-  color: yellow;
 }
 
 .featured__item__price {
