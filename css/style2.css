@@ -139,14 +139,15 @@ ol {
 }
 
 .site-btn {
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   font-size: 14px;
   color: #ffffff;
   font-weight: 800;
   text-transform: uppercase;
   display: inline-block;
-  padding: 13px 30px 12px;
-  background: #3f72af;
+  padding: 12px 30px;
+  background: #ef9590;
   border: none;
 }
 
@@ -350,23 +351,7 @@ ol {
   Header
 -----------------------*/
 .header__top {
-  background: rgb(249, 247, 247);
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(249, 247, 247, 1) 0%,
-    rgba(219, 226, 239, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(249, 247, 247, 1) 0%,
-    rgba(219, 226, 239, 1) 100%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(249, 247, 247, 1) 0%,
-    rgba(219, 226, 239, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f7f7",endColorstr="#dbe2ef",GradientType=1);
+  background: #ef9590;
   position: fixed;
   left: 0;
   top: 0;
@@ -374,7 +359,7 @@ ol {
   z-index: 10;
 }
 .header__top .hero__search__form {
-  background: #dbe2ef;
+  background: #ffffff;
   border-radius: 5px;
 }
 
@@ -385,7 +370,7 @@ ol {
 .header__logo span {
   font-size: 20px;
   font-weight: 900;
-  color: #112d4e;
+  color: #1eb197;
 }
 
 .header__logo {
@@ -420,23 +405,7 @@ ol {
   position: absolute;
   left: 0;
   top: 50px;
-  background: rgb(249, 247, 247);
-  background: -moz-linear-gradient(
-    0deg,
-    rgba(249, 247, 247, 1) 0%,
-    rgba(63, 114, 175, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(249, 247, 247, 1) 0%,
-    rgba(63, 114, 175, 1) 100%
-  );
-  background: linear-gradient(
-    0deg,
-    rgba(249, 247, 247, 1) 0%,
-    rgba(63, 114, 175, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f7f7",endColorstr="#3f72af",GradientType=1);
+  background: #ef9590;
   width: 180px;
   z-index: 9;
   padding: 5px 0;
@@ -455,18 +424,18 @@ ol {
 }
 
 .header__menu ul li .header__menu__dropdown li:hover > a {
-  color: #112d4e;
+  color: #f91212;
 }
 
 .header__menu ul li .header__menu__dropdown li a {
   text-transform: capitalize;
-  color: #112d4e;
+  color: #000;
   font-weight: 400;
   padding: 5px 15px;
 }
 
 .header__menu ul li.active a {
-  color: #112d4e;
+  color: #f91212;
 }
 
 .header__menu ul li:hover .header__menu__dropdown {
@@ -476,7 +445,7 @@ ol {
 }
 
 .header__menu ul li:hover > a {
-  color: #112d4e;
+  color: #f91212;
 }
 
 .header__menu ul li:last-child {
@@ -485,7 +454,7 @@ ol {
 
 .header__menu ul li a {
   font-size: 14px;
-  color: #3f72af;
+  color: #000000;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
@@ -661,14 +630,14 @@ ol {
 
 .hero__categories__all i {
   font-size: 16px;
-  color: #112d4e;
+  color: #000000;
   margin-right: 10px;
 }
 
 .hero__categories__all span {
   font-size: 18px;
   font-weight: 700;
-  color: #112d4e;
+  color: #000000;
 }
 
 .hero__categories__all:after {
@@ -678,7 +647,7 @@ ol {
   content: "3";
   font-family: "ElegantIcons";
   font-size: 18px;
-  color: #112d4e;
+  color: #000000;
 }
 
 .hero__categories ul {
@@ -711,31 +680,9 @@ ol {
 .hero__search__form {
   width: 100%;
   height: 50px;
-  border: 1px solid #3f72af;
+  border: 1px solid #000;
   position: relative;
   float: left;
-}
-
-.hero__search__form form .hero__search__categories {
-  width: 30%;
-  float: left;
-  font-size: 16px;
-  color: #112d4e;
-  font-weight: 700;
-  padding-left: 18px;
-  padding-top: 11px;
-  position: relative;
-}
-
-.hero__search__form form .hero__search__categories:after {
-  position: absolute;
-  right: 0;
-  top: 14px;
-  height: 20px;
-  width: 1px;
-  background: #000000;
-  opacity: 0.1;
-  content: "";
 }
 
 .hero__search__form form .hero__search__categories span {
@@ -761,8 +708,8 @@ ol {
 .hero__search__form form button {
   position: absolute;
   right: 0;
-  top: -1px;
-  height: 50px;
+  top: -1;
+  height: 49px;
 }
 
 .hero__search__phone {
