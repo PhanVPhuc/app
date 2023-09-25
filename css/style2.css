@@ -385,7 +385,7 @@ ol {
 }
 
 .header__bottom {
-  background: F9F7F7;
+  background: #ffefef;
   margin-top: 82px;
 }
 
@@ -404,7 +404,7 @@ ol {
   position: absolute;
   left: 0;
   top: 50px;
-  background: #ef9590;
+  background: #ffefef;
   width: 180px;
   z-index: 9;
   padding: 5px 0;
