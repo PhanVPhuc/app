@@ -90,7 +90,7 @@ ol {
 
 .section-title {
   margin-bottom: 18px;
-  margin-top: 18px;
+  margin-top: 10%;
   text-align: center;
 }
 
@@ -604,23 +604,7 @@ ol {
 }
 
 .hero__categories__all {
-  background: rgb(249, 247, 247);
-  background: -moz-linear-gradient(
-    180deg,
-    rgba(249, 247, 247, 1) 0%,
-    rgba(63, 114, 175, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(249, 247, 247, 1) 0%,
-    rgba(63, 114, 175, 1) 100%
-  );
-  background: linear-gradient(
-    180deg,
-    rgba(249, 247, 247, 1) 0%,
-    rgba(63, 114, 175, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f7f7",endColorstr="#3f72af",GradientType=1);
+  background: #ccc;
   position: relative;
   padding: 10px 25px 10px 40px;
   cursor: pointer;
@@ -707,8 +691,7 @@ ol {
 .hero__search__form form button {
   position: absolute;
   right: 0;
-  top: -1;
-  height: 49px;
+  height: 100%;
 }
 
 .hero__search__phone {
@@ -1100,7 +1083,9 @@ ol {
   Sidebar
 -----------------------*/
 .sidebar {
+  margin-top: 10%;
   padding: 20px 0px;
+  background-color: #f5f5f5;
 }
 
 .sidebar__item {
@@ -1125,11 +1110,11 @@ ol {
   list-style: none;
 }
 
-.sidebar__item ul li a {
+.sidebar__item ul li input {
   font-size: 16px;
   color: #1c1c1c;
   line-height: 39px;
-  display: block;
+  display: inline-block;
 }
 
 .price-range-wrap .range-slider {
@@ -1591,7 +1576,12 @@ ol {
 
 .product__pagination,
 .blog__pagination {
+  display: flex;
+  align-items: center;
   padding-top: 10px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .product__pagination a,
