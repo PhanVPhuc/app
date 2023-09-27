@@ -2270,6 +2270,8 @@ body {
   border-bottom: 1px solid #e1e1e1;
   padding-bottom: 20px;
   margin-bottom: 20px;
+  display: grid;
+  text-align: center;
 }
 
 .checkout__order .checkout__order__products {
