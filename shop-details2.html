@@ -604,7 +604,66 @@
           </div>
           <div class="col-s-6 col-lg-6 col-md-6 col-xl-6 order-table-form">
             <div>
-              <h3>I dont know what to do</h3>
+              <div class="menu-frame">
+                <h2>Choose a Dish:</h2>
+                <ul class="menu-list">
+                  <li>
+                    <span class="dish-name">Món khai vị</span>
+                    <span class="dish-price">140.000đ</span>
+                    <input
+                      type="number"
+                      class="quantity-input"
+                      min="0"
+                      max="10"
+                      value="1"
+                    />
+                  </li>
+                  <li>
+                    <span class="dish-name">Lẩu cua đồng</span>
+                    <span class="dish-price">140.000đ</span>
+                    <input
+                      type="number"
+                      class="quantity-input"
+                      min="0"
+                      max="10"
+                      value="1"
+                    />
+                  </li>
+                  <li>
+                    <span class="dish-name">Đồ uống</span>
+                    <span class="dish-price">140.000đ</span>
+                    <input
+                      type="number"
+                      class="quantity-input"
+                      min="0"
+                      max="10"
+                      value="1"
+                    />
+                  </li>
+                  <li>
+                    <span class="dish-name">Món chính</span>
+                    <span class="dish-price">140.000đ</span>
+                    <input
+                      type="number"
+                      class="quantity-input"
+                      min="0"
+                      max="10"
+                      value="1"
+                    />
+                  </li>
+                  <li>
+                    <span class="dish-name">Món tráng miệng</span>
+                    <span class="dish-price">140.000đ</span>
+                    <input
+                      type="number"
+                      class="quantity-input"
+                      min="1"
+                      max="10"
+                      value="1"
+                    />
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -612,6 +671,15 @@
     </section>
 
     <!-- Order Section End -->
+    <div class="Next">
+      <button onclick="next()">Next</button>
+      <script>
+                  function next() {
+                      window.location.href = "shop-cart2.html";
+                  }
+
+      </script>
+    </div>
     <!-- Footer Section Begin -->
     <footer class="footer spad">
       <div class="container">
