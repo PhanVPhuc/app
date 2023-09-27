@@ -1020,6 +1020,14 @@ ol {
 .order-table {
   background: #ffefef;
 }
+/*--nut them -*/
+.Next {
+  background-color: #edf1f5; /* Blue background color */
+  text-align: center;
+  color: #dd0f0f; /* White text color */
+  padding: 10px 20px; /* Padding around the button text */
+  font-size: 28px; /* Font size of the button text */
+}
 
 /*---------------------
   Form BLog
