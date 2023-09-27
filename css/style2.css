@@ -2141,21 +2141,6 @@ body {
   padding-bottom: 20px;
 }
 
-.checkout h6 {
-  color: #999999;
-  text-align: center;
-  background: #f5f5f5;
-  border-top: 1px solid #6ab963;
-  padding: 12px 0 12px;
-  margin-bottom: 75px;
-}
-
-.checkout h6 span {
-  font-size: 16px;
-  color: #6ab963;
-  margin-right: 5px;
-}
-
 .checkout h6 a {
   text-decoration: underline;
   color: #999999;
@@ -2163,6 +2148,7 @@ body {
 .checkout__form form .CF-container {
   background-color: #ffefef;
   padding-top: 3%;
+  border-radius: 5px;
 }
 
 .checkout__form h4 {
@@ -2261,8 +2247,10 @@ body {
 }
 
 .checkout__order {
-  background: #f5f5f5;
+  background: #ffffff;
   padding: 16px 40px;
+  margin-bottom: 16px;
+  border-radius: 5px;
 }
 .checkout div b,
 .checkout div p {
