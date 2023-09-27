@@ -2159,13 +2159,17 @@ body {
   text-decoration: underline;
   color: #999999;
 }
+.checkout__form form .CF-container {
+  background-color: #ffefef;
+  padding-top: 3%;
+}
 
 .checkout__form h4 {
   color: #1c1c1c;
   font-weight: 700;
   border-bottom: 1px solid #e1e1e1;
-  padding-bottom: 20px;
-  margin-bottom: 25px;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .checkout__form p {
@@ -2257,8 +2261,7 @@ body {
 
 .checkout__order {
   background: #f5f5f5;
-  padding: 40px;
-  padding-top: 30px;
+  padding: 16px 40px;
 }
 
 .checkout__order h4 {
@@ -2289,9 +2292,8 @@ body {
 }
 
 .checkout__order__name {
-  flex: 1;
+  width: 50%;
   text-align: center;
-  line-height: normal;
 }
 
 .checkout__order__quantity {
@@ -2359,12 +2361,19 @@ body {
   float: right;
   color: #dd2222;
 }
-
-.checkout__order button {
+.order-btn {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.order-btn .site-btn {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   font-size: 18px;
   letter-spacing: 2px;
   width: 100%;
-  margin-top: 10px;
+  margin: 10px 0px;
+  padding: 12px 150px;
 }
 
 /*---------------------
