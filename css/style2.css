@@ -2135,7 +2135,9 @@ ol {
   margin: 0;
   padding: 2px 10px;
 }
-
+.billingCustomer {
+  margin-bottom: 10px;
+}
 .billingCustomer div {
   display: inline-block;
   padding: 0;
