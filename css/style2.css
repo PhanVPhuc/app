@@ -978,6 +978,7 @@ ol {
 .featured__item__price {
   display: flex;
   justify-content: space-between;
+  margin: 10px 0;
 }
 .featured__item__price-content {
   display: flex;
