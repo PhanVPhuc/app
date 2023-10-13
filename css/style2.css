@@ -3254,6 +3254,57 @@ input[type="file"] {
   list-style: none;
 }
 
+/*-----------------------
+        Restaurant Dashboard begin
+-------------------------*/
+.restaurantDashboard {
+  background-color: rgba(234, 184, 181, 0.5);
+  padding: 0px 15px;
+  height: 1500x;
+}
+.restaurantLogo,
+.restaurantName,
+.restaurantDashboard-menu {
+  padding: 0px 0px 0px 8px;
+  margin-bottom: 10%;
+}
+.restaurantLogo img {
+  margin-left: 20%;
+}
+.restaurantLogo img,
+.restaurantLogo p {
+  display: grid;
+  padding: 0;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.restaurantName img {
+  border-radius: 63px;
+  border: 4px solid #fff;
+
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.restaurantName p,
+.restaurantName img {
+  display: inline-block;
+  padding: 0;
+}
+.restaurantDashboard-menu {
+  margin: 20% 0%;
+}
+.restaurantDashboard-menu ul {
+  list-style: none;
+  float: right;
+}
+.restaurantDashboard-menu li {
+  margin: 5% 0%;
+}
+/*-----------------------
+        Restaurant Dashboard end
+-------------------------*/
+
 /* end Dishes */
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
