@@ -3256,7 +3256,21 @@ input[type="file"] {
   border-bottom: 1px solid #dacdcd;
   list-style: none;
 }
-/* slider -  range */
+/*-----------------------
+        Restaurant Dashboard begin
+-------------------------*/
+.restaurantLogo img,
+.restaurantLogo p {
+  background-color: red;
+  display: grid;
+  padding: 0;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+/*-----------------------
+        Restaurant Dashboard end
+-------------------------*/
 
 /* end Dishes */
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
