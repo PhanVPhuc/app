@@ -260,7 +260,6 @@
         slider range
 -----------------------*/
 
-
 // // Requires jQuery
 
 // // Initialize slider:
@@ -284,7 +283,7 @@
 //     format: moneyFormat,
 //     connect: true
 //   });
-  
+
 //   // Set visual min and max values and also update value hidden form inputs
 //   rangeSlider.noUiSlider.on('update', function(values, handle) {
 //     document.getElementById('slider-range-value1').innerHTML = values[0];
@@ -295,8 +294,6 @@
 //       values[1]);
 //   });
 // });
-
-
 
 // // https://refreshless.com/nouislider/
 // /*! nouislider - 8.3.0 - 2016-02-14 17:37:19 */
